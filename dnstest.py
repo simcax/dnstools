@@ -63,5 +63,5 @@ class dnsTroubleShoot:
             self.last_error[hostname] = f"Last error: {e}"
             
 
-domains = ['auth.avail.test.k8s.nemlig','auth.avail.prod.k8s.nemlig','dr.dk1']
+domains = ['dr.dk','google.com']
 ts = dnsTroubleShoot(domains,200)
